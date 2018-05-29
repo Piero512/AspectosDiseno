@@ -5,7 +5,7 @@ public class HelloAspectJDemo {
     public static void greeting()  {
         String name = new String("John");
         sayHello();
-        System.out.print(name);
+        System.out.println(name);
     }
     public static void main(String[] args) {
         sayHello();
