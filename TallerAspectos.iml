@@ -2,7 +2,9 @@
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="AspectJ" name="AspectJ">
-      <configuration />
+      <configuration>
+        <option name="weaveOnly" value="true" />
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
@@ -12,6 +14,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="aspectjrt" level="application" />
+    <orderEntry type="library" name="aspectjrt" level="application" />
   </component>
 </module>
